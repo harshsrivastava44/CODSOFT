@@ -1,0 +1,195 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    /* height: 3rem; */
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo {
+    /* font-size: 2em; */
+    /* font-weight: bold; */
+    height: 4rem;
+    width: 5rem;
+    border-radius: 50%;
+    /* border: 2px solid red; */
+    background-image: url('Landingpagelogo.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+.logo-tag{
+
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 26px;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: #fff;
+}
+
+
+#hero {
+    margin: 0 1rem;
+    background-image: url('backgroundiamge.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+    height: 20rem;
+}
+
+.hero-content {
+    /* max-width: 800px; */
+    margin: 0 auto;
+}
+
+.hero-content h2 {
+    /* background-color: #5a3a25; */
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+
+#about{
+    margin: 0 1rem;
+    /* height: 10rem; */
+    /* width: ; */
+    background: linear-gradient(#d19393,#617a82);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* padding: 10px 10px; */
+}
+.about-content h2{
+    font-size: 2.5rem;
+    font-family: 'Abril Fatface', cursive;
+}
+.about-content p{
+    /* width: 10px; */
+    font-size: 1.5rem;
+    height: 200px;
+    font-family: 'Abril Fatface', cursive;
+    padding: 0 100px;
+}
+
+
+#classes{
+    margin: 0 1rem;
+    /* height: 20rem; */
+    background:rgb(146, 118, 81);
+    
+}
+.classes-content h2{
+    font-size: 3rem;
+    /* padding: 0; */
+    font-family: 'Abril Fatface', cursive;
+}
+.classes-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.classes-content p{
+    font-size: 1.4rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0;
+}
+.box{
+    margin: 0.6rem;
+    background:radial-gradient(circle, #ece7e7 ,#0d0d1b);
+    /* border: 2px solid red; */
+    height: 5rem;
+    width: 20rem;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    border-radius: 20px;
+    font-family: 'Abril Fatface', cursive;
+}
+
+
+
+#contact{
+    background-color: rgb(135, 139, 142);
+    margin: 0 1rem;
+}
+.contact-content{
+    font-family: 'Abril Fatface', cursive;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.contact-content a{
+    display: flex;
+    flex-direction: row;
+    background-color: #22224b;
+    margin-top: 0.2rem;
+    margin-bottom: 0.5rem;
+    font-size: larger;
+}
+
+
+
+footer{
+    height: 5rem;
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: center;
+}
+html{
+    scroll-behavior: smooth;
+}
